@@ -29,7 +29,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="100dp"
             android:paddingStart="25dp"
-            android:paddingEnd="25sp"
+            android:paddingEnd="25dp"
             android:paddingBottom="16dp" />
 
         <TextView

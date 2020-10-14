@@ -66,8 +66,5 @@ public class SongsActivity extends AppCompatActivity {
 
 
         });
-
     }
-
-
 }

@@ -34,20 +34,17 @@ public class SongsAdapter extends ArrayAdapter<Songs> {
         Songs currentSong = getItem (position);
 
         ImageView imageView = listItemView.findViewById (R.id.music_image);
-        Glide.with(getContext()).asBitmap().load(currentSong.getmImageUrl()).into(imageView);
+        Glide.with (getContext ()).asBitmap ().load (currentSong.getmImageUrl ()).into (imageView);
 
         TextView song = listItemView.findViewById (R.id.name_of_song);
-        song.setText (currentSong.getmSong_name ());
+        song.setText(currentSong.getmSong_name());
 
         TextView duration = listItemView.findViewById (R.id.song_length);
-        duration.setText (currentSong.getmDuration ());
+        duration.setText(currentSong.getmDuration());
 
         TextView artist = listItemView.findViewById (R.id.artist);
-        artist.setText (currentSong.getmArtist ());
+        artist.setText(currentSong.getmArtist());
 
         return listItemView;
-
     }
-
-
 }
